@@ -6,11 +6,12 @@ It is very much work in progress.
 If you think any of the specifications are unclear or incorrect please raise an issue in this repo. 
 If you would like to see an improvement / feature of the protocol please raise an issue in this repo to open a discussion on the topic. 
 
-We are currently not accepting pull requests on this repo.
+We are currently not accepting pull requests on this repo. 
 
 ## [Protocol](./protocol/)
 This directory contains the protocol specifications. The Platonic ideal is that this directory contains all that is needed to write an
 implementation of Vega that is compatible with [vegaprotocol/vega](https://github.com/vegaprotocol/vega) (currently private repo).
+A good starting point is [./protocol/README.md](./protocol/README.md).
 
 ## [Glossaries](./glossaries/)
 These are quick reference points for general terminology we use. Some of the specs are really dense with trading terms 
