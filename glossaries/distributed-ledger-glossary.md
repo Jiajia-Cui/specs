@@ -70,7 +70,7 @@ Working code for an [algorithm](#algorithm). There are usually many implementati
 The amount of time before a system can achieve both consensus and finality; it's measured in time (milliseconds, seconds, or minutes usually). Latency interacts with the concepts of "consensus" and "finality". We can for instance say that the consensus latency of Bitcoin is ten minutes, but its finality latency (e.g. after 5 additional blocks are written) is 60 minutes. Because most consensus systems need to communicate multiple times to get to agreement, latency in high-speed blockchain systems will be fundamentally dictated by the speed of light and the geographical distance separating nodes.
 
 ## Longest Chain
-The longes chain approach is one way to solve consensus. It consists of a mechanism that (not necessarily uniquely) determinas a leader that can propose the next block in the blockchain. If a node sees a longer chain than the one it knows, it uses that one as its new chain. Longest chain protocols do not offer finallity, i.e., every block can (theoretically) be undone. 
+The longest chain approach is one way to solve consensus. It consists of a mechanism that (not necessarily uniquely) determines a leader that can propose the next block in the blockchain. If a node sees a longer chain than the one it knows, it uses that one as its new chain. Longest chain protocols do not offer finallity, i.e., every block can (theoretically) be undone. 
 
 ## MainNet
 ...
@@ -102,7 +102,7 @@ There are entire protocols ([Band](https://bandprotocol.com/), [Chainlink](https
 ...
 
 ## Reliable Broadcast
-A reliable broadcast assures that all receiving of a broadcasr nodes receive the same set of messages, and that a message sent by an honest sender is received. ... see [here](https://www.semanticscholar.org/paper/Asynchronous-consensus-and-broadcast-protocols-Bracha-Toueg/130ce1bcd496a7b9192f5f53dd8d7ef626e40675), 
+A reliable broadcast assures that all receiving of a broadcast nodes receive the same set of messages, and that a message sent by an honest sender is received. ... see [here](https://www.semanticscholar.org/paper/Asynchronous-consensus-and-broadcast-protocols-Bracha-Toueg/130ce1bcd496a7b9192f5f53dd8d7ef626e40675), 
 [here](https://www.shoup.net/papers/ckps.pdf) or [here](https://arxiv.org/pdf/1510.06882.pdf).
 
 ## State Channels
